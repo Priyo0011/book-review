@@ -1,0 +1,80 @@
+[
+  {
+    "bookId": "1",
+    "bookName": "Shadows Over Baker Street",
+    "author": "Michael Reaves and John Pelan",
+    "image": "https://i.ibb.co/sRrw15n/book1.jpg",
+    "review": "A thrilling mashup that combines the eerie world of Sherlock Holmes with the unsettling darkness of Lovecraftian horror. An unexpected but delightful blend that captivates from the first page. Fans of both genres will find this anthology a treasure trove of intrigue, dread, and mystery, as familiar characters navigate a world teeming with eldritch beings and cosmic horrors. The narrative beautifully melds Victorian London's fog-laden streets with the insidious, creeping dread of ancient gods and unspeakable evils.",
+    "totalPages": 448,
+    "rating": 4.5,
+    "category": "Mystery",
+    "tags": ["Crossover", "Horror", "Detective"],
+    "publisher": "Del Rey Books",
+    "yearOfPublishing": "2003"
+  },
+  {
+    "bookId": "2",
+    "bookName": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "image": "https://i.ibb.co/yWHJb4y/book2.jpg",
+    "review": "This novel weaves magic, love, and mystery into a masterpiece that keeps you enchanted till the end. Morgenstern's vivid descriptions transport readers directly into the circus tents. The competition between two young illusionists becomes a profound love story that questions reality and illusion. With its stunning visual imagery and complex characters, 'The Night Circus' is a spellbinding journey that defies expectations and captivates the imagination.",
+    "totalPages": 387,
+    "rating": 4.7,
+    "category": "Fantasy",
+    "tags": ["Magic", "Romance", "Mystery"],
+    "publisher": "Doubleday",
+    "yearOfPublishing": "2011"
+  },
+  {
+    "bookId": "3",
+    "bookName": "Educated",
+    "author": "Tara Westover",
+    "image": "https://i.ibb.co/PGCCXty/book3.jpg",
+    "review": "An unforgettable memoir about struggle, perseverance, and the transformative power of education. Westover's journey from a survivalist family to the heights of academia is both inspiring and heart-wrenching. Her quest for knowledge, despite her unconventional upbringing, is a testament to the strength of the human spirit. The narrative is beautifully crafted, offering profound insights into the nature of family, identity, and the pursuit of truth against all odds.",
+    "totalPages": 334,
+    "rating": 4.8,
+    "category": "Memoir",
+    "tags": ["Inspirational", "Autobiography"],
+    "publisher": "Random House",
+    "yearOfPublishing": "2018"
+  },
+  {
+    "bookId": "4",
+    "bookName": "The Martian",
+    "author": "Andy Weir",
+    "image": "https://i.ibb.co/d2kZkYC/book4.jpg",
+    "review": "A riveting survival tale that is as scientifically plausible as it is thrilling. Mark Watney's humor and ingenuity make for a compelling read about human ingenuity and spirit. Stranded on Mars, his fight for survival is packed with technical detail, making it a must-read for science enthusiasts. The book masterfully combines elements of science, suspense, and isolation, exploring the resilience of the human spirit in the face of overwhelming odds.",
+    "totalPages": 369,
+    "rating": 4.6,
+    "category": "Science Fiction",
+    "tags": ["Space", "Survival", "Humor"],
+    "publisher": "Crown Publishing Group",
+    "yearOfPublishing": "2014"
+  },
+  {
+    "bookId": "5",
+    "bookName": "Becoming",
+    "author": "Michelle Obama",
+    "image": "https://i.ibb.co/r72J9Bh/book5.jpg",
+    "review": "A deeply personal and inspiring account of the First Lady's life, focusing on the experiences that have shaped her. From her childhood in Chicago to her time in the White House, Michelle Obama shares her remarkable journey. 'Becoming' goes beyond the public image to reveal a deeply personal account filled with wisdom, grace, and honesty. It's a profoundly reflective and inspiring story of a woman who has continually defied expectations, setting a new standard for what it means to be strong and resilient.",
+    "totalPages": 426,
+    "rating": 4.9,
+    "category": "Biography",
+    "tags": ["Inspirational", "Political", "Autobiography"],
+    "publisher": "Crown Publishing Group",
+    "yearOfPublishing": "2018"
+  },
+  {
+    "bookId": "6",
+    "bookName": "Gone Girl",
+    "author": "Gillian Flynn",
+    "image": "https://i.ibb.co/YcHGwrm/book6.jpg",
+    "review": "A masterful psychological thriller that explores the complexities of marriage and media influence. Flynn's twisty plot and sharp characters will keep you guessing until the very end. The book delves deep into the psychology of its characters, presenting a disturbing yet fascinating examination of the dark side of human nature and the modern media's role in shaping public perception. 'Gone Girl' is a compelling narrative that defies genre conventions, offering a brilliant critique of marriage and media.",
+    "totalPages": 422,
+    "rating": 4.4,
+    "category": "Thriller",
+    "tags": ["Mystery", "Crime", "Psychological"],
+    "publisher": "Crown Publishing Group",
+    "yearOfPublishing": "2012"
+  }
+]
