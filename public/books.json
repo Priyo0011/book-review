@@ -1,9 +1,9 @@
 [
   {
-    "bookId": "1",
+    "id": "1",
     "bookName": "Shadows Over Baker Street",
     "author": "Michael Reaves and John Pelan",
-    "image": "https://i.ibb.co/sRrw15n/book1.jpg",
+    "image": "https://i.ibb.co/t2TZSFT/book0.jpg",
     "review": "A thrilling mashup that combines the eerie world of Sherlock Holmes with the unsettling darkness of Lovecraftian horror. An unexpected but delightful blend that captivates from the first page. Fans of both genres will find this anthology a treasure trove of intrigue, dread, and mystery, as familiar characters navigate a world teeming with eldritch beings and cosmic horrors. The narrative beautifully melds Victorian London's fog-laden streets with the insidious, creeping dread of ancient gods and unspeakable evils.",
     "totalPages": 448,
     "rating": 4.5,
@@ -13,7 +13,7 @@
     "yearOfPublishing": "2003"
   },
   {
-    "bookId": "2",
+    "id": "2",
     "bookName": "The Night Circus",
     "author": "Erin Morgenstern",
     "image": "https://i.ibb.co/yWHJb4y/book2.jpg",
@@ -26,7 +26,7 @@
     "yearOfPublishing": "2011"
   },
   {
-    "bookId": "3",
+    "id": "3",
     "bookName": "Educated",
     "author": "Tara Westover",
     "image": "https://i.ibb.co/PGCCXty/book3.jpg",
@@ -39,7 +39,7 @@
     "yearOfPublishing": "2018"
   },
   {
-    "bookId": "4",
+    "id": "4",
     "bookName": "The Martian",
     "author": "Andy Weir",
     "image": "https://i.ibb.co/d2kZkYC/book4.jpg",
@@ -52,7 +52,7 @@
     "yearOfPublishing": "2014"
   },
   {
-    "bookId": "5",
+    "id": "5",
     "bookName": "Becoming",
     "author": "Michelle Obama",
     "image": "https://i.ibb.co/r72J9Bh/book5.jpg",
@@ -60,12 +60,12 @@
     "totalPages": 426,
     "rating": 4.9,
     "category": "Biography",
-    "tags": ["Inspirational", "Political", "Autobiography"],
+    "tags": ["Inspirational", "Political"],
     "publisher": "Crown Publishing Group",
     "yearOfPublishing": "2018"
   },
   {
-    "bookId": "6",
+    "id": "6",
     "bookName": "Gone Girl",
     "author": "Gillian Flynn",
     "image": "https://i.ibb.co/YcHGwrm/book6.jpg",
@@ -73,7 +73,7 @@
     "totalPages": 422,
     "rating": 4.4,
     "category": "Thriller",
-    "tags": ["Mystery", "Crime", "Psychological"],
+    "tags": ["Mystery", "Crime"],
     "publisher": "Crown Publishing Group",
     "yearOfPublishing": "2012"
   }
