@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="space-y-4 mt-8">
+    <div className="space-y-4 mt-4 p-4">
       <h1>
         A book is a medium for recording information in the form of writing or
         images. Books are typically composed of many pages, bound together and
