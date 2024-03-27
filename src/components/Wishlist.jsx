@@ -1,19 +1,19 @@
-/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
+
+import {  getWishList } from "../utils";
 import Wish from "../pages/Wish";
-import { getWish } from "../utils/wish";
 
 
 const Wishlist = () => {
-    const [wish, setWish]= useState([])
+    const [wishBook, setWishBooks]= useState([])
         useEffect(()=>{
-            const storedWish = getWish()
-            setWish(storedWish)
+            const storedWishBook = getWishList()
+            setWishBooks(storedWishBook)
         },[])
     return (
         <div className="mt-8 space-y-6 p-4">
             {
-                wish.map(wish=><Wish key={wish.id} wish={wish}></Wish>)
+                wishBook.map(wishBook=><Wish key={wishBook.id} books={wishBook}></Wish>)
             }
           </div>
     );

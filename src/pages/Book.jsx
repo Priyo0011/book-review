@@ -1,8 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import { saveBook } from "../utils";
-import { saveWish } from "../utils/wish";
-
-
+import { saveBook, saveWish } from "../utils";
 
 
 
@@ -10,6 +7,7 @@ const Book = () => {
   const books = useLoaderData();
   const { id } = useParams();
   const book = books.find((book) => book.id === id);
+  const wish = books.find((wish) => wish.id === id);
   const {
     image,
     tags,
@@ -25,9 +23,12 @@ const Book = () => {
   const handleApplyRead = book =>{
     saveBook(book)
   }
+  
   const handleApplyWish = wish =>{
     saveWish(wish)
   }
+  
+  
   return (
     <div className="mt-16 md:flex gap-8">
       <div className=" m-auto w-full p-24 max-w-sm  bg-base-200 rounded-2xl">
@@ -78,7 +79,7 @@ const Book = () => {
           <button onClick={()=>handleApplyRead(book)} className="md:p-2 px-4 md:px-6 rounded-md font-semibold bg-green-500 text-white">
           Read
           </button>
-          <button onClick={()=>handleApplyWish(book)} className="md:p-2 px-4 md:px-6 rounded-md font-semibold bg-blue-400 text-white ">
+          <button onClick={()=>handleApplyWish(wish)}  className="md:p-2 px-4 md:px-6 rounded-md font-semibold bg-blue-400 text-white ">
           Wishlist
           </button>
         </div>

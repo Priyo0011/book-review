@@ -3,9 +3,9 @@ import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { FaRegFile } from "react-icons/fa";
 
-const Wish = ({ wish }) => {
+const  Wish= ({ books }) => {
   const { image, tags, bookName, author, category, rating, yearOfPublishing, publisher ,totalPages} =
-    wish;
+    books;
   return (
     <div className="flex border-2 rounded-xl p-8 ">
       <img

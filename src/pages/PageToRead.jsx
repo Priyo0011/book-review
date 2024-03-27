@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
 
@@ -6,37 +7,37 @@ const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
 const data = [
   {
     name: 'Shadows',
-    uv: 400,
+    uv: 448 ,
     pv: 240,
     amt: 240,
   },
   {
     name: 'Night Circus',
-    uv: 300,
+    uv: 387,
     pv: 139,
     amt: 221,
   },
   {
     name: 'Educated',
-    uv: 200,
+    uv: 334,
     pv: 980,
     amt: 229,
   },
   {
     name: 'The Martian',
-    uv: 278,
+    uv: 369,
     pv: 390,
     amt: 200,
   },
   {
     name: 'Becoming',
-    uv: 189,
+    uv: 426,
     pv: 480,
     amt: 218,
   },
   {
     name: 'Gone Girl',
-    uv: 239,
+    uv: 422,
     pv: 380,
     amt: 250,
   },
