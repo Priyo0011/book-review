@@ -1,12 +1,14 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import toast from "react-hot-toast";
+import { saveBook } from "../utils";
+import { saveWish } from "../utils/wish";
+
+
 
 
 
 const Book = () => {
   const books = useLoaderData();
   const { id } = useParams();
-  
   const book = books.find((book) => book.id === id);
   const {
     image,
@@ -20,15 +22,12 @@ const Book = () => {
     totalPages,
     publisher,
   } = book;
-
-  const handleApplyRead = () =>{
-    
-    toast.success("Book Added Successfully!");
+  const handleApplyRead = book =>{
+    saveBook(book)
   }
-  const handleApplyWishlist = () =>{
-    toast.success("Wishlist Added Successfully!");
+  const handleApplyWish = wish =>{
+    saveWish(wish)
   }
-
   return (
     <div className="mt-16 md:flex gap-8">
       <div className=" m-auto w-full p-24 max-w-sm  bg-base-200 rounded-2xl">
@@ -76,10 +75,10 @@ const Book = () => {
           </div>
         </div>
         <div className="flex gap-8">
-          <button onClick={handleApplyRead} className="md:p-2 px-4 md:px-6 rounded-md font-semibold bg-green-500 text-white">
+          <button onClick={()=>handleApplyRead(book)} className="md:p-2 px-4 md:px-6 rounded-md font-semibold bg-green-500 text-white">
           Read
           </button>
-          <button onClick={handleApplyWishlist} className="md:p-2 px-4 md:px-6 rounded-md font-semibold bg-blue-400 text-white ">
+          <button onClick={()=>handleApplyWish(book)} className="md:p-2 px-4 md:px-6 rounded-md font-semibold bg-blue-400 text-white ">
           Wishlist
           </button>
         </div>
