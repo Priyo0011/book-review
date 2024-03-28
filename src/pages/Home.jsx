@@ -1,6 +1,6 @@
 import { Link, useLoaderData } from "react-router-dom";
 import Card from "../components/Card";
-
+import Banner from "../assets/images/pngwing 1.png"
 
 const Home = () => {
   const home = useLoaderData();
@@ -10,7 +10,7 @@ const Home = () => {
       <div className="p-2">
         <div className="hero rounded-md py-10 px-20 bg-base-200">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src="/src/assets/images/pngwing 1.png" className="mr-8" />
+            <img src={Banner} className="mr-8" />
             <div className="mb-6">
               <h1 className="text-5xl font-bold py-8">
                 Books to freshen up your bookshelf.

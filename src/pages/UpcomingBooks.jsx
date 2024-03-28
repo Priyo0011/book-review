@@ -1,4 +1,6 @@
-
+import Book7 from "../assets/images/book7.jpg"
+import Book8 from "../assets/images/book8.jpg"
+import Book9 from "../assets/images/book9.jpg"
 const UpcomingBooks = () => {
   return (
     <div className="grid grid-cols-1 gap-16 md:grid-cols-3 mt-8">
@@ -6,7 +8,7 @@ const UpcomingBooks = () => {
         <img
           role="presentation"
           className=" w-auto py-4 px-24 border-2 rounded-xl h-[230px] bg-base-200"
-          src="/src/assets/images/book7.jpg"
+          src={Book7}
         />
         <div className=" space-y-2 mt-2">
           <h3 className="text-2xl font-semibold">Suzanne Collins</h3>
@@ -19,7 +21,7 @@ const UpcomingBooks = () => {
         <img
           role="presentation"
           className=" w-auto py-4 px-24 border-2 rounded-xl h-[230px] bg-base-200"
-          src="/src/assets/images/book8.jpg"
+          src={Book8}
         />
         <div className=" space-y-2 mt-2">
           <h3 className="text-2xl font-semibold">The Da Vinci Code</h3>
@@ -32,7 +34,7 @@ const UpcomingBooks = () => {
         <img
           role="presentation"
           className=" w-auto py-4 px-24 border-2 rounded-xl h-[230px] bg-base-200"
-          src="/src/assets/images/book9.jpg"
+          src={Book9}
         />
         <div className=" space-y-2 p-2">
           <h3 className="text-2xl font-semibold">Harry Potter</h3>
