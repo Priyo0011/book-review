@@ -1,8 +1,12 @@
-# React + Vite
+# live link :
+- https://scholarship-91d7e.web.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features:
+- Extensive database of available scholarships categorized by various criteria such as merit, need, and field of study. 
+- Users can apply for multiple scholarships through a single, unified platform.
+- Tracks the status of applications and sends notifications for updates.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to run localhost:
+- git clone (past copylink)
+- npm i 
+- npm run dev / npm start
