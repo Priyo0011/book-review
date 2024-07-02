@@ -1,10 +1,10 @@
 # live link :
-- https://scholarship-91d7e.web.app
+- https://juvenile-legs222.surge.sh
 
 # Features:
-- Extensive database of available scholarships categorized by various criteria such as merit, need, and field of study. 
-- Users can apply for multiple scholarships through a single, unified platform.
-- Tracks the status of applications and sends notifications for updates.
+- Comprehensive database of books with detailed information and categorization.
+- Users can write and rate reviews for books they have read.
+- Provides personalized book recommendations based on user preferences and past reviews.
 
 # How to run localhost:
 - git clone (past copylink)
